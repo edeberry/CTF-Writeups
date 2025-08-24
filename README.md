@@ -1,4 +1,4 @@
-# CTF-Writeups
+# CTF Writeups
 
 These are writeups for Capture the Flag (CTF) challenges I completed, browsable by event or challenge category.
 
