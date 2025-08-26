@@ -1,6 +1,6 @@
 # LIT Newsapp
 
-This was reverse engineering challenge from LIT CTF 2025. The only file provided was named `main`, with no file extension.
+This was a reverse engineering challenge from LIT CTF 2025. The only file provided was named `main`, with no file extension.
 
 Opening the file in a text editor showed mostly unreadable characters.
 
