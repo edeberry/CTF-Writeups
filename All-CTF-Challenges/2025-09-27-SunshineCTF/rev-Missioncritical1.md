@@ -30,7 +30,7 @@ sprintf(&s, "sun{%s_%s_%s}\n", "e4sy", "s4t3ll1t3", "3131");
 ```
 * The `sprintf` function formats a string like `printf`, but instead of printing the result, it stores the string in a character array.
 * The `%s` is a format specifier that indicates that the argument will be a string. This means that if printed, the output would be the flag properly formatted.
-* Following the format, the flag would be "sun{e4sy_s4t3ll1t3_3131}". This can be easily automated by adding the function to a simple C script that prints the result:
+* Following the format, the flag would be "sun{e4sy_s4t3ll1t3_3131}". This can be easily automated by adding the function to a C script that prints the result:
 ```C
 # include <stdio.h>
 
