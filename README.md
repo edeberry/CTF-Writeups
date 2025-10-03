@@ -13,5 +13,5 @@ Browse writeups by challenge type.
 ## Events
 Browse writeups by CTF event, with the most recent first.
 
-- [2025-08-23-LITCTF](All-CTF-Challenges/2025-08-23-LITCTF)
 - [2025-09-27-SunshineCTF](All-CTF-Challenges/2025-09-27-SunshineCTF/)
+- [2025-08-23-LITCTF](All-CTF-Challenges/2025-08-23-LITCTF)
