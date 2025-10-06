@@ -25,12 +25,15 @@ int32_t main(int32_t argc, char** argv, char** envp)
 ```
 
 The sprintf() function stood out, as it contains the flag format (`sun{}`) in the following line:
+
 ```C
 sprintf(&s, "sun{%s_%s_%s}\n", "e4sy", "s4t3ll1t3", "3131");
 ```
+
 * The `sprintf` function formats a string like `printf`, but instead of printing the result, it stores the string in a character array.
 * The `%s` is a format specifier that indicates that the argument will be a string. This means that if printed, the output would be the flag properly formatted.
 * Following the format, the flag would be "sun{e4sy_s4t3ll1t3_3131}". This can be easily automated by adding the function to a C script that prints the result:
+
 ```C
 # include <stdio.h>
 
@@ -43,15 +46,20 @@ int main(void) {
     return 0;
 }
 ```
+
 This code runs the `sprintf` function then prints the result:
+
 ```C
 sun{e4sy_s4t3ll1t3_3131}
 ```
+
 This verifies the formatting of the flag.
 
-**Conclusion:**<br />
+**Conclusion:**
+
 The binary constructs the flag with `sprintf`, so manually reproducing or printing the formatted string reveals the flag.
 
 ### Tools/References:
+
 * [dogbolt.org](dogbolt.org): Decompiled the binary file with Binary Ninja.
 * [sprintf on zetcode.com](https://www.zetcode.com/clang/sprintf/): Reference for understanding sprintf formatting and usage.
